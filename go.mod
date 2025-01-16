@@ -1,4 +1,4 @@
-module github.com/emad-elsaid/xlog
+module github.com/DMcP89/xlog
 
 go 1.23
 
