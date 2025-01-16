@@ -17,6 +17,7 @@ require (
 require (
 	github.com/emad-elsaid/memoize v0.0.0-20241119212339-a0b57858a452
 	github.com/emad-elsaid/types v0.0.4
+	github.com/emad-elsaid/xlog v1.7.1
 	github.com/gorilla/websocket v1.5.1
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/rjeczalik/notify v0.9.3
