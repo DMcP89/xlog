@@ -29,6 +29,14 @@
 </div>
 {{- end -}}
 
+<div class="view" style="view-transition-name: page-content;" >
+  {{- with .page -}}
+    {{- widgets "before_view" . -}}
+    {{- .Render -}}
+    {{- widgets "after_view" . -}}
+  {{- end -}}
+</div>
+
 <div class="columns content is-small">
 
   <div class="column">
@@ -80,13 +88,6 @@
 
 </div>
 
-<div class="view" style="view-transition-name: page-content;" >
-  {{- with .page -}}
-    {{- widgets "before_view" . -}}
-    {{- .Render -}}
-    {{- widgets "after_view" . -}}
-  {{- end -}}
-</div>
 
 <script>
  document.querySelectorAll('.view table').forEach(t => {
