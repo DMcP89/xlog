@@ -3,7 +3,7 @@ package gpg
 import (
 	"flag"
 
-	"github.com/emad-elsaid/xlog"
+	"github.com/DMcP89/xlog"
 )
 
 const EXT = ".md.pgp"

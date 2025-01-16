@@ -6,8 +6,8 @@ import (
 	"io/fs"
 	"strings"
 
-	"github.com/emad-elsaid/xlog"
-	"github.com/emad-elsaid/xlog/extensions/shortcode"
+	"github.com/DMcP89/xlog"
+	"github.com/DMcP89/xlog/extensions/shortcode"
 	"gopkg.in/yaml.v3"
 )
 

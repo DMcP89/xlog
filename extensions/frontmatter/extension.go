@@ -1,7 +1,7 @@
 package frontmatter
 
 import (
-	"github.com/emad-elsaid/xlog"
+	"github.com/DMcP89/xlog"
 	meta "github.com/yuin/goldmark-meta"
 )
 

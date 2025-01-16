@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"html/template"
 
-	. "github.com/emad-elsaid/xlog"
+	. "github.com/DMcP89/xlog"
 	"github.com/yuin/goldmark/ast"
 	east "github.com/yuin/goldmark/extension/ast"
 	"github.com/yuin/goldmark/renderer"

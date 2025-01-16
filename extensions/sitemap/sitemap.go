@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	. "github.com/emad-elsaid/xlog"
+	. "github.com/DMcP89/xlog"
 )
 
 var SITEMAP_DOMAIN string

@@ -21,9 +21,9 @@ import (
 
 	"github.com/yuin/goldmark/ast"
 
+	"github.com/DMcP89/xlog"
+	"github.com/DMcP89/xlog/extensions/shortcode"
 	"github.com/emad-elsaid/types"
-	"github.com/emad-elsaid/xlog"
-	"github.com/emad-elsaid/xlog/extensions/shortcode"
 	"github.com/rwcarlsen/goexif/exif"
 	"golang.org/x/image/draw"
 	_ "golang.org/x/image/webp"

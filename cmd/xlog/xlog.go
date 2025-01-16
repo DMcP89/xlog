@@ -4,10 +4,10 @@ import (
 	// Core
 	"context"
 
-	"github.com/emad-elsaid/xlog"
+	"github.com/DMcP89/xlog"
 
 	// All official extensions
-	_ "github.com/emad-elsaid/xlog/extensions/all"
+	_ "github.com/DMcP89/xlog/extensions/all"
 )
 
 func main() {

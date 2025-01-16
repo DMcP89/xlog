@@ -13,7 +13,7 @@ import (
 
 	_ "embed"
 
-	. "github.com/emad-elsaid/xlog"
+	. "github.com/DMcP89/xlog"
 )
 
 const gb = 1 << (10 * 3)

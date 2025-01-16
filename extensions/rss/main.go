@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/emad-elsaid/xlog"
+	. "github.com/DMcP89/xlog"
 )
 
 var domain string

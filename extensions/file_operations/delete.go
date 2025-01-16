@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"net/url"
 
-	. "github.com/emad-elsaid/xlog"
+	. "github.com/DMcP89/xlog"
 )
 
 type PageDelete struct {

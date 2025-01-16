@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/emad-elsaid/xlog"
-	"github.com/emad-elsaid/xlog/extensions/shortcode"
+	"github.com/DMcP89/xlog"
+	"github.com/DMcP89/xlog/extensions/shortcode"
 	"github.com/google/go-github/v53/github"
 	"golang.org/x/oauth2"
 )

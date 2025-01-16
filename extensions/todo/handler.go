@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strconv"
 
-	. "github.com/emad-elsaid/xlog"
+	. "github.com/DMcP89/xlog"
 )
 
 var taskListRegexp = regexp.MustCompile(`^\[([\sxX])\]\s*`)

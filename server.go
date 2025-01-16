@@ -182,7 +182,7 @@ func Cache(out Output) Output {
 type funcStringer struct{ any }
 
 func (f funcStringer) String() string {
-	const xlogPrefix = "emad-elsaid/xlog/"
+	const xlogPrefix = "DMcP89/xlog/"
 	const ghPrefix = "github.com/"
 	name := runtime.FuncForPC(reflect.ValueOf(f.any).Pointer()).Name()
 	name = strings.TrimPrefix(name, ghPrefix)

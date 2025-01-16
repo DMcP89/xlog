@@ -1,7 +1,7 @@
 package images
 
 import (
-	. "github.com/emad-elsaid/xlog"
+	. "github.com/DMcP89/xlog"
 	"github.com/yuin/goldmark/parser"
 	"github.com/yuin/goldmark/renderer"
 	"github.com/yuin/goldmark/util"

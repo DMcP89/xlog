@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"html/template"
 
-	. "github.com/emad-elsaid/xlog"
+	. "github.com/DMcP89/xlog"
 )
 
 var editUrl string
 
 func init() {
-	flag.StringVar(&editUrl, "github.url", "", "Repository url for 'edit on Github' quick action e.g https://github.com/emad-elsaid/xlog/edit/master/docs")
+	flag.StringVar(&editUrl, "github.url", "", "Repository url for 'edit on Github' quick action e.g https://github.com/DMcP89/xlog/edit/master/docs")
 	RegisterExtension(Github{})
 }
 

@@ -5,8 +5,8 @@ import (
 	"html/template"
 	"os"
 
+	. "github.com/DMcP89/xlog"
 	"github.com/emad-elsaid/memoize"
-	. "github.com/emad-elsaid/xlog"
 )
 
 var head_file, before_view_file, after_view_file string
